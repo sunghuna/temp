@@ -40,8 +40,8 @@ Table of Contents:
 /*@import "./theme_panel/theme_panel.css";*/
 
 /*---- Fonts ----*/
-@import "./fonts/montserrat/stylesheet.css";
-@import "./fonts/raleway/stylesheet.css";  
+@import "fonts/montserrat/stylesheet.css";
+@import "fonts/raleway/stylesheet.css";  
 @import "simple-line-icons.css";
 @import "ionicons.min.css";
 @import "font-awesome.min.css";

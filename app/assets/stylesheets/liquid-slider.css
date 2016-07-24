@@ -26,7 +26,7 @@
 * markup.
 *******************************************************/
 .ls-preloader {  
-  background: url(../img/loading.gif) #f2f2f2 no-repeat center 75px;
+  background: url(/assets/loading.gif) #f2f2f2 no-repeat center 75px;
   opacity:1;
   /* Do not edit below this line */
   width:100%;
@@ -265,7 +265,7 @@
   width: 25px;
   height: 25px;
     transition: all 0.5s ease;
-  background: url(../img/arrow.png) no-repeat bottom left;
+  background: url(/assets/arrow.png) no-repeat bottom left;
   margin-right: 5px;
     top: 50%;
     
@@ -276,7 +276,7 @@
   width: 25px;
   height: 25px;
     transition: all 0.5s ease;
-  background: url(../img/arrow.png) no-repeat top right;
+  background: url(/assets/arrow.png) no-repeat top right;
   margin-left: 5px;
     top: 50%;
   /* Do not edit below this line */
@@ -284,14 +284,14 @@
 }
 .ls-wrapper .ls-nav-left-arrow:hover {
   /* Left graphical arrows hover */
-  background: url(../img/arrow.png) no-repeat top left;
+  background: url(/assets/arrow.png) no-repeat top left;
 }
 .ls-wrapper .ls-nav-left-arrow:active {
   /* Left graphical arrows click */
 }
 .ls-wrapper .ls-nav-right-arrow:hover {
   /* Right graphical arrows hover */
-  background: url(../img/arrow.png) no-repeat bottom right;
+  background: url(/assets/arrow.png) no-repeat bottom right;
 }
 .ls-wrapper .ls-nav-right-arrow:active {
   /* Right graphical arrows click */

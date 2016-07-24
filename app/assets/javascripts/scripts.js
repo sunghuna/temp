@@ -166,7 +166,7 @@
         $("#message").slideUp(750,function() {
         $('#message').hide();
         $('#submit')
-            .after('<img src="img/assets/contact-form-loader.gif" class="loader" />')
+            .after('<img src="/assets/contact-form-loader.gif" class="loader" />')
             .attr('disabled','disabled');
             $.post(action, {
                 name: $('#name').val(),
@@ -191,7 +191,7 @@
     $("#map").gmap3({
         marker:{     
         address:"93 Worth St, New York, NY", 
-        options:{ icon: "img/assets/marker.png"}},
+        options:{ icon: "/assets/marker.png"}},
         map:{
         options:{
         styles: [ {
@@ -226,9 +226,9 @@
     Backstretch
     ------------*/
     $(".home-fullscreen-slider").backstretch([
-        "img/slide-1.jpg",
-        "img/slide-2.jpg",
-        "img/slide-3.jpg"
+        "/assets/slide-1.jpg",
+        "/assets/slide-2.jpg",
+        "/assets/slide-3.jpg"
     ], {
         fade: 750,
         duration: 4000
