@@ -506,7 +506,7 @@ h2 small {
 .tp-banner li:after {
     content: "";
     position: absolute;
-    background: url(../img/assets/gridtile.png) repeat;
+    background: url(/assets/gridtile.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -516,7 +516,7 @@ h2 small {
 .tp-banner-video li:after {
     content: "";
     position: absolute;
-    background: url(../img/assets/gridtile.png) repeat;
+    background: url(/assets/gridtile.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -526,7 +526,7 @@ h2 small {
 .tp-loader.spinner1 {
     width: 40px;
     height: 40px;
-    background: url(../img/assets/rev-loader.GIF) no-repeat center center;
+    background: url(/assets/rev-loader.GIF) no-repeat center center;
     background-color: transparent;
     box-shadow:  none;
     -webkit-box-shadow: none;
@@ -1506,27 +1506,27 @@ line-height: 0px;
 }
 .cbp-popup-lightbox .cbp-popup-close {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-close-light.png") no-repeat;
+    background: url("/assets/popup-close-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-close:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-close-light.png") no-repeat;
+    background: url("/assets/popup-close-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-prev {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-prev-light.png") no-repeat;
+    background: url("/assets/popup-prev-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-prev:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-prev-light.png") no-repeat;
+    background: url("/assets/popup-prev-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-next {
     opacity: .4;
-    background: url("../img/portfolio/buttons/popup-next-light.png") no-repeat;
+    background: url("/assets/popup-next-light.png") no-repeat;
 }
 .cbp-popup-lightbox .cbp-popup-next:hover {
     opacity: 1;
-    background: url("../img/portfolio/buttons/popup-next-light.png") no-repeat;
+    background: url("/assets/popup-next-light.png") no-repeat;
 }
 
 .cbp-popup-singlePage .cbp-popup-close, 
@@ -1539,28 +1539,28 @@ line-height: 0px;
     transition: all 0.11s ease-in-out;
 }
 .cbp-popup-singlePage .cbp-popup-prev {
-    background: url("../img/portfolio/buttons/popup-prev-dark.png") no-repeat;
+    background: url("/assets/popup-prev-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-prev:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-prev-dark.png") no-repeat;
+    background: url("/assets/popup-prev-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-next {
-    background: url("../img/portfolio/buttons/popup-next-dark.png") no-repeat;
+    background: url("/assets/popup-next-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-next:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-next-dark.png") no-repeat;
+    background: url("/assets/popup-next-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-close {
-    background: url("../img/portfolio/buttons/popup-close-dark.png") no-repeat;
+    background: url("/assets/popup-close-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-close:hover {
     top:18px;
     opacity: .2;
-    background: url("../img/portfolio/buttons/popup-close-dark.png") no-repeat;
+    background: url("/assets/popup-close-dark.png") no-repeat;
 }
 .cbp-popup-singlePage .cbp-popup-content {
     margin-top: 0;
